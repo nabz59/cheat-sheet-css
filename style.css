@@ -1,0 +1,42 @@
+html { /* fond du site */
+margin:0;padding:10;
+margin-top:5px;
+margin-bottom:10px;
+background-color:#08081B;
+text-align: center;
+font-family: Verdana
+} 
+h3 {font-size: 1.2em;
+color:white;
+border-width:5px;
+border-radius:10px;
+}
+body{
+	background-color:black;
+	margin-top:5px;
+}
+
+#header { /* propriété du header*/
+	background-image: url("background.jpg");
+} 
+#center { /* propriété du milieux*/
+	overflow:hidden;
+	width:100%;
+	background-image: url("background1.jpg");
+} 
+#left { 
+	float:left; 
+	width:300px; 
+} 
+#content { 
+	margin-left:300px; 
+	background-image: url("background1.jpg"); 
+} 
+#footer { 
+	background-color:#95adc9; 
+	background-image: url("background.jpg");
+} 
+div {
+background-image: url("background1.jpg"); 
+color:white;
+}
